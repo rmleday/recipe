@@ -53,6 +53,11 @@ body{
     #side{
         background-color: #7ABFBF;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        
+        
+    }
+
+    @media screen(min-width: 768px;) {
         
     }
