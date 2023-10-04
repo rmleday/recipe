@@ -23,7 +23,7 @@ body{
 #street{
     text-align: center;
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr 2fr;
 }
 
 /*img{
@@ -48,6 +48,9 @@ body{
 
     .taco{
         transform: scale(50%);
+        float:left; 
+        
+         margin:5px;
     }
 
     #side{
@@ -58,6 +61,28 @@ body{
         
     }
 
-    @media screen(min-width: 768px;) {
-        
+    #sidetoside{
+        margin: 0 auto;
+    
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    width:1140px; 
+    height: 362px;
+    }
+
+    @media screen and (min-width: 768px;) {
+        body{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media screen and (min-width:414px){
+        body{
+            display: grid;
+            grid-template-columns:1fr;
+        }
     }
